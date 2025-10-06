@@ -25,11 +25,10 @@ export const games: Game[] = [
       { source: LinkImageSource.Github, url: "https://github.com/KaanKirant/kaankirant.github.io" },
     ],
     media: [
-      { source: "/images/games/Slash/Screenshot_1.png", type: MediaType.Image },
       { source: "youtube.com/watch?v=zL3rDbIOlHk&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE", type: MediaType.YouTube },
+      { source: "/images/games/Slash/Screenshot_1.png", type: MediaType.Image },
       { source: "/images/games/Slash/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Slash/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/Slash/Screenshot_4.png", type: MediaType.Image },
     ],
   }
   ];
