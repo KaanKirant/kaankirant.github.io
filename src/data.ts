@@ -25,8 +25,8 @@ export const games: Game[] = [
       { source: LinkImageSource.Github, url: "https://github.com/KaanKirant/kaankirant.github.io" },
     ],
     media: [
-      { source: "https://www.youtube.com/embed/zL3rDbIOlHk", type: MediaType.YouTube },
       { source: "/images/games/Slash/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/zL3rDbIOlHk", type: MediaType.YouTube },
       { source: "/images/games/Slash/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Slash/Screenshot_3.png", type: MediaType.Image },
     ],
