@@ -32,21 +32,6 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "Maze Solver",
-    description: "Creating a maze using DFS algorithm and solving this puzzle with A* and BFS algorithm. Comparing the both algorithms. The size of the maze is adjustable.",
-    genres: ["2D", "Maze"],
-    platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
-    links: [
-    ],
-    media: [
-      { source: "/images/games/MazeSolver/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/NgtCmWIYpqE", type: MediaType.YouTube },
-      { source: "/images/games/MazeSolver/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/MazeSolver/Screenshot_3.png", type: MediaType.Image },
-    ],
-  },
-  {
     name: "Escape The House",
     description: "A first person game and the goal of the game is to escape the room by solving the puzzles.",
     genres: ["3D", "Puzzle"],
@@ -79,5 +64,19 @@ export const games: Game[] = [
       { source: "/images/games/TowerDefence/Screenshot_3.png", type: MediaType.Image },
     ],
   },
-
+  {
+    name: "Maze Solver",
+    description: "Creating a maze using DFS algorithm and solving this puzzle with A* and BFS algorithm. Comparing the both algorithms. The size of the maze is adjustable.",
+    genres: ["2D", "Maze"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+    ],
+    media: [
+      { source: "/images/games/MazeSolver/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/NgtCmWIYpqE", type: MediaType.YouTube },
+      { source: "/images/games/MazeSolver/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/MazeSolver/Screenshot_3.png", type: MediaType.Image },
+    ],
+  }
   ];
