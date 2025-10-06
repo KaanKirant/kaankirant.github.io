@@ -1,54 +1,35 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
-  role: "YOUR_ROLE",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  name: "Kaan Kirant",
+  role: "Game Developer",
+  introduction: "Hi, I'm Kaan, a passionate game developer & AI Enthusiast",
+  description: "Hi! My name is Kaan. Dedicated and accomplished software and game developer with a solid background in artificial intelligence. With a Master's in Artificial Intelligence & Data Science and a Bachelor's in Computer Engineering, I provide a combination of technical expertise and original problem-solving skills. Having worked successfully in team settings in the past, I have expertise in creating video games and software applications utilising C++, C# and Python.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/KaanKirant_CV_July2025.pdf`,
   links: {
-    github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
-    linkedIn: "https://www.linkedin.com/in/NAME",
+    github: "https://github.com/KaanKirant",
+    itchIO: "https://kaankirant.itch.io",
+    linkedIn: "https://www.linkedin.com/in/kaankirant",
   }
 };
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    name: "Slash",
+    description: "Learned Unreal Engine 5's Open World maps, Quixel Bridge megascans for ultra-realistic environments, landscape sculpting and painting, dungeons, free-roaming creatures and humanoids with various weapons, breakable objects that spawn treasure. ",
+    genres: ["Open World", "Third-Person"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: GameEngine.Unreal,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/KaanKirant/kaankirant.github.io" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
-    ],
-  },
-  {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
-    platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
-    links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
-    ],
-    media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/Slash/Screenshot_1.png", type: MediaType.Image },
+      { source: "youtube.com/watch?v=zL3rDbIOlHk&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE", type: MediaType.YouTube },
+      { source: "/images/games/Slash/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/Slash/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/Slash/Screenshot_4.png", type: MediaType.Image },
     ],
   }
-];
+  ];
