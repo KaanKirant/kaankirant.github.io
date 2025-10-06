@@ -30,5 +30,54 @@ export const games: Game[] = [
       { source: "/images/games/Slash/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Slash/Screenshot_3.png", type: MediaType.Image },
     ],
-  }
+  },
+  {
+    name: "Maze Solver",
+    description: "Creating a maze using DFS algorithm and solving this puzzle with A* and BFS algorithm. Comparing the both algorithms. The size of the maze is adjustable.",
+    genres: ["2D", "Maze"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+    ],
+    media: [
+      { source: "/images/games/MazeSolver/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/NgtCmWIYpqE", type: MediaType.YouTube },
+      { source: "/images/games/MazeSolver/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/MazeSolver/Screenshot_3.png", type: MediaType.Image },
+    ],
+  },
+  {
+    name: "Escape The House",
+    description: "A first person game and the goal of the game is to escape the room by solving the puzzles.",
+    genres: ["3D", "Puzzle"],
+    platforms: [Platform.Android, Platform.iOS],
+    engine: GameEngine.Unity,
+    links: [
+    ],
+    media: [
+      { source: "/images/games/EscapeTheHouse/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/2SpyKTneLa4", type: MediaType.YouTube },
+      { source: "/images/games/EscapeTheHouse/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/EscapeTheHouse/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/EscapeTheHouse/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/EscapeTheHouse/Screenshot_5.png", type: MediaType.Image },
+      { source: "/images/games/EscapeTheHouse/Screenshot_6.png", type: MediaType.Image },
+    ],
+  },
+  {
+    name: "Tower Defence",
+    description: "Classic tower defence game. You can upgrade your tower with random cards given to you. These cards cost energy and you gain energy by killing attackers. ",
+    genres: ["2D", "Tower Defence"],
+    platforms: [Platform.Android, Platform.iOS],
+    engine: GameEngine.Unity,
+    links: [
+    ],
+    media: [
+      { source: "/images/games/TowerDefence/Screenshot_1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/tUmSXsr-yO0", type: MediaType.YouTube },
+      { source: "/images/games/TowerDefence/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/TowerDefence/Screenshot_3.png", type: MediaType.Image },
+    ],
+  },
+
   ];
