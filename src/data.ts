@@ -22,7 +22,7 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unreal,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/KaanKirant/kaankirant.github.io" },
+      { source: LinkImageSource.Github, url: "https://github.com/KaanKirant/Slash" },
     ],
     media: [
       { source: "/images/games/Slash/Screenshot_1.png", type: MediaType.Image },
@@ -38,6 +38,8 @@ export const games: Game[] = [
     platforms: [Platform.Android, Platform.iOS],
     engine: GameEngine.Unity,
     links: [
+{ source: LinkImageSource.ItchIo, url: "https://kaankirant.itch.io/escape-the-house" },
+{ source: LinkImageSource.Github, url: "https://github.com/KaanKirant/EscapeTheHouse" }
     ],
     media: [
       { source: "/images/games/EscapeTheHouse/Screenshot_1.png", type: MediaType.Image },
@@ -56,6 +58,8 @@ export const games: Game[] = [
     platforms: [Platform.Android, Platform.iOS],
     engine: GameEngine.Unity,
     links: [
+{ source: LinkImageSource.ItchIo, url: "https://kaankirant.itch.io/tower-defence" },
+{ source: LinkImageSource.Github, url: "https://github.com/KaanKirant/TowerDefence" }
     ],
     media: [
       { source: "/images/games/TowerDefence/Screenshot_1.png", type: MediaType.Image },
@@ -65,18 +69,18 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "Maze Solver",
-    description: "Creating a maze using DFS algorithm and solving this puzzle with A* and BFS algorithm. Comparing the both algorithms. The size of the maze is adjustable.",
-    genres: ["2D", "Maze"],
+    name: "IBM's Skills Build Game",
+    description: "An arcade quiz game that aims to improve interactivity of the IBM's Skills Build website using gamification. This project developed with an IBM mentor and it is for my masters degree.",
+    genres: ["2D", "Arcade", "Space"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: GameEngine.Unreal,
     links: [
+{ source: LinkImageSource.ItchIo, url: "https://kaankirant.itch.io/ibms-skillsbuild" }
     ],
     media: [
-      { source: "/images/games/MazeSolver/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/NgtCmWIYpqE", type: MediaType.YouTube },
-      { source: "/images/games/MazeSolver/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/MazeSolver/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/IBMsSkillsBuildGame/Screenshot_2.png", type: MediaType.Image },
+      { source: "/images/games/IBMsSkillsBuildGame/Screenshot_3.png", type: MediaType.Image },
+      { source: "/images/games/IBMsSkillsBuildGame/Screenshot_1.png", type: MediaType.Image },
     ],
   }
   ];
